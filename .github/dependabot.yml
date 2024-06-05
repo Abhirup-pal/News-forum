@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: -"/news-forum/" # Location of package manifests
-               -"/server/"
+    directory: - "/news-forum/" # Location of package manifests
+               - "/server/"
     schedule:
       interval: "daily"
